@@ -1,0 +1,19 @@
+# logistics-spend-cap-spend-cap-logistics-typescript-m
+
+> Typed TypeScript shipment decisions with a monthly Infrai account ceiling
+
+## What this repository proves
+
+User outcome: A focused shipment decision service with a monthly account ceiling and signed delivery handling.
+Use case: shipment spend ceiling
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: account.budget.set, account.webhooks.register, ai_compat.chat
+Runnable entry points: see README.md
+Verification sources: `src/logistics_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

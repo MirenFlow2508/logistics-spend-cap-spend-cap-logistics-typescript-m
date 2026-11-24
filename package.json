@@ -1,0 +1,7 @@
+{
+  "name": "logistics-spend-cap",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --experimental-strip-types src/logistics_service.test.ts", "start": "node --experimental-strip-types src/logistics_service.ts" },
+  "dependencies": { "openai": "latest", "zod": "latest" }
+}
